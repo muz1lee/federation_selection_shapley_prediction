@@ -1,0 +1,14 @@
+
+Python 3.6+
+numpy
+torch 
+pickle
+json
+yaml
+itertools
+matplotlib
+scipy
+random
+logging
+sys
+os
