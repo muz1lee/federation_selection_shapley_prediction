@@ -1,0 +1,32 @@
+ignore: [now_round, patience_earlystop, dir_alpha, timestamp, now_round, combine_id]
+params:
+# general
+ load: ''
+ lr: 0.01 #
+ lr_decay: 1.0
+ momentum: 0.9
+ norm: gn
+ num_groups: 32
+ seed: 1
+ std_lin: 0.01
+ test_freq: 1
+ optim: sgd
+ weight_decay: 0.0005
+# framework
+ dir_alpha: 10.0 #
+ frac: 1.0
+ iid_frac: 0.3
+ split: step #
+ local_ep: 1
+ imb_alpha: 0.0
+ num_users: 10
+# dataset
+ epochs: 20
+ dataset: cifar10
+ alg: fedavg
+ model: cnn
+ bs_train: 32 #
+ bs_test: 100
+ now_round: 1
+ collect_rounds: 1
+ clsnum_peruser: 2

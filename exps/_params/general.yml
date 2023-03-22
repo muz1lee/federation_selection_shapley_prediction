@@ -1,0 +1,13 @@
+ignore: ['project_name','exp_name','base_dir','gpu','save_clients','save_model','save_root','use_wandb', 'local_test', 'load']
+params:
+ load: ''
+ lr_decay: 1.0
+ momentum: 0.5
+ norm: bn
+ num_groups: 32
+ seed: 1
+ std_lin: 0.01
+ test_freq: 1
+ optim: sgd
+ std_lin: 0.01
+ weight_decay: 0

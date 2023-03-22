@@ -1,0 +1,12 @@
+framework: [center]
+params:
+---
+framework: [fedlocal,fedavg,fedbn,fedprox,scaffold]
+params:
+  dir_alpha: 1.0
+  frac: 1.0
+  iid_frac: 0.3
+  split: iid
+  local_ep: 1
+  imb_alpha: 0.0
+  num_users: 10
