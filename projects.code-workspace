@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "projects",
+			"path": ".."
+		},
+		{
+			"name": "exp1.7.x_submit",
+			"path": "../../drawer/exp1.7.x_submit"
+		}
+	],
+	"settings": {}
+}
